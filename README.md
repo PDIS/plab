@@ -1,6 +1,6 @@
 # plab
 
-> palb website
+> plab website
 
 ## Build Setup
 
