@@ -1,15 +1,63 @@
 <template>
   <div>
-    <h1 class='ui center aligned header'>Wall</h1>
     <div class="ui container">
+      <h1 class='ui center aligned header'>plab</h1>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+      <div class="ui divider"></div>
       <div class="ui three column doubling grid">
-        <div class="column"><div class="ui top attached segment"><img class="ui fluid image" src="https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/audreyt/800/574_1.png"></div><div class="ui bottom attached segment">content</div></div>
-        <div class="column"><div class="ui segment">Content</div></div>
-        <div class="column"><div class="ui segment">Content</div></div>
-        <div class="column"><div class="ui segment">Content</div></div>
-        <div class="column"><div class="ui segment">Content</div></div>
-        
-      </div> 
+        <div class="column">
+          <div class="ui fluid card">
+            <a class="image" href="#">
+              <img src="https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/audreyt/800/574_1.png">
+            </a>
+            <div class="content">
+              <a class="header" href="#">Steve Jobes</a>
+              <div class="meta">
+                <a>Last Seen 2 days ago</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui fluid card">
+            <a class="image" href="#">
+              <img src="https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/audreyt/800/574_1.png">
+            </a>
+            <div class="content">
+              <a class="header" href="#">Steve Jobes</a>
+              <div class="meta">
+                <a>Last Seen 2 days ago</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui fluid card">
+            <a class="image" href="#">
+              <img src="https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/audreyt/800/574_1.png">
+            </a>
+            <div class="content">
+              <a class="header" href="#">Steve Jobes</a>
+              <div class="meta">
+                <a>Last Seen 2 days ago</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="ui fluid card">
+            <a class="image" href="#">
+              <img src="https://talk.pdis.nat.gov.tw/user_avatar/talk.pdis.nat.gov.tw/audreyt/800/574_1.png">
+            </a>
+            <div class="content">
+              <a class="header" href="#">Steve Jobes</a>
+              <div class="meta">
+                <a>Last Seen 2 days ago</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
