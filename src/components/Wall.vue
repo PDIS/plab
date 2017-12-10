@@ -2,7 +2,7 @@
   <div>
     <div class="ui container">
       <h1 class='ui center aligned header'>plab</h1>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+      <description></description>
       <div class="ui divider"></div>
       <div class="ui three column doubling grid">
         <div class="column">
@@ -62,8 +62,13 @@
   </div>
 </template>
 <script>
+import axios from 'axios'
+import description from './description'
 export default {
   name: 'Wall',
+  components: {
+    description
+  },
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
