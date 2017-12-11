@@ -1,12 +1,26 @@
 <template>
   <div id="app">
+    <v-header></v-header>
     <router-view/>
+    <v-footer></v-footer>
   </div>
 </template>
+  <style type="text/css">
 
+  .ui.footer.segment {
+    margin: 5em 0em 0em;
+    padding: 5em 0em;
+  }
+  </style>
 <script>
+import header from './components/header'
+import footer from './components/footer'
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    'v-header': header,
+    'v-footer': footer
+  }
 }
 </script>
 

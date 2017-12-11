@@ -1,19 +1,19 @@
 <template>
   <div class="ui three column doubling grid">
-        <div class="column" v-for="post in posts" :key="post.id" >
-          <div class="ui fluid card">
-            <a class="image" href="#">
-              <img v-bind:src="post.links[0]">
-            </a>
-            <div class="content">
-              <a class="header" href="#">{{post.title}}</a>
-              <div class="meta">
-                <p v-html="post.content"></p>
-              </div>
-            </div>
+    <div class="column" v-for="post in posts" :key="post.id" >
+      <div class="ui fluid card">
+        <a class="image" href="#">
+          <img v-bind:src="post.links[0]">
+        </a>
+        <div class="content">
+          <a class="header" href="#">{{post.title}}</a>
+          <div class="meta">
+            <p v-html="post.content"></p>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 </template>
 
 <script>
