@@ -8,6 +8,11 @@
     </div>
   </div>
 </template>
+<style>
+  .ui.menu .item img.logo {
+    margin-right: 1.5em;
+  }
+</style>
 
 <script>
 export default {
